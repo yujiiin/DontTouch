@@ -21,6 +21,9 @@
 		216D8B5719D8EC1F00F2AB8C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 216D8B3919D8EC1F00F2AB8C /* UIKit.framework */; };
 		216D8B5F19D8EC1F00F2AB8C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 216D8B5D19D8EC1F00F2AB8C /* InfoPlist.strings */; };
 		216D8B6119D8EC1F00F2AB8C /* Don_t_touchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 216D8B6019D8EC1F00F2AB8C /* Don_t_touchTests.m */; };
+		216D8B6C19D8EC7A00F2AB8C /* BlackTile.png in Resources */ = {isa = PBXBuildFile; fileRef = 216D8B6A19D8EC7A00F2AB8C /* BlackTile.png */; };
+		216D8B6D19D8EC7A00F2AB8C /* WhiteTile.png in Resources */ = {isa = PBXBuildFile; fileRef = 216D8B6B19D8EC7A00F2AB8C /* WhiteTile.png */; };
+		216D8B7019D8EDDB00F2AB8C /* Game.m in Sources */ = {isa = PBXBuildFile; fileRef = 216D8B6F19D8EDDB00F2AB8C /* Game.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +56,10 @@
 		216D8B5C19D8EC1F00F2AB8C /* Don't touchTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Don't touchTests-Info.plist"; sourceTree = "<group>"; };
 		216D8B5E19D8EC1F00F2AB8C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		216D8B6019D8EC1F00F2AB8C /* Don_t_touchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Don_t_touchTests.m; sourceTree = "<group>"; };
+		216D8B6A19D8EC7A00F2AB8C /* BlackTile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BlackTile.png; sourceTree = "<group>"; };
+		216D8B6B19D8EC7A00F2AB8C /* WhiteTile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = WhiteTile.png; sourceTree = "<group>"; };
+		216D8B6E19D8EDDB00F2AB8C /* Game.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Game.h; path = ../Game.h; sourceTree = "<group>"; };
+		216D8B6F19D8EDDB00F2AB8C /* Game.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Game.m; path = ../Game.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +124,8 @@
 				216D8B4719D8EC1F00F2AB8C /* Main.storyboard */,
 				216D8B4A19D8EC1F00F2AB8C /* ViewController.h */,
 				216D8B4B19D8EC1F00F2AB8C /* ViewController.m */,
+				216D8B6E19D8EDDB00F2AB8C /* Game.h */,
+				216D8B6F19D8EDDB00F2AB8C /* Game.m */,
 				216D8B4D19D8EC1F00F2AB8C /* Images.xcassets */,
 				216D8B3C19D8EC1F00F2AB8C /* Supporting Files */,
 			);
@@ -126,6 +135,8 @@
 		216D8B3C19D8EC1F00F2AB8C /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				216D8B6A19D8EC7A00F2AB8C /* BlackTile.png */,
+				216D8B6B19D8EC7A00F2AB8C /* WhiteTile.png */,
 				216D8B3D19D8EC1F00F2AB8C /* Don't touch-Info.plist */,
 				216D8B3E19D8EC1F00F2AB8C /* InfoPlist.strings */,
 				216D8B4119D8EC1F00F2AB8C /* main.m */,
@@ -230,7 +241,9 @@
 			files = (
 				216D8B4E19D8EC1F00F2AB8C /* Images.xcassets in Resources */,
 				216D8B4019D8EC1F00F2AB8C /* InfoPlist.strings in Resources */,
+				216D8B6D19D8EC7A00F2AB8C /* WhiteTile.png in Resources */,
 				216D8B4919D8EC1F00F2AB8C /* Main.storyboard in Resources */,
+				216D8B6C19D8EC7A00F2AB8C /* BlackTile.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -252,6 +265,7 @@
 				216D8B4C19D8EC1F00F2AB8C /* ViewController.m in Sources */,
 				216D8B4619D8EC1F00F2AB8C /* AppDelegate.m in Sources */,
 				216D8B4219D8EC1F00F2AB8C /* main.m in Sources */,
+				216D8B7019D8EDDB00F2AB8C /* Game.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
